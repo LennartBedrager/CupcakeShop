@@ -260,7 +260,7 @@ public class Main extends HttpServlet
                     + "function myFunction() {"
                     + "if(parseFloat(document.getElementById(\"nBalance\").value) < 0){"
                     + "alert(\"Insufficient funds!\");"
-                    + "} else if(document.getElementById(\"number\").value < 0) {"
+                    + "} else if(document.getElementById(\"number\").value < 1) {"
                     + "alert(\"Cant add negative amount!\");"
                     + "} else {"
                     +"var e = document.getElementById(\"topping\");"
